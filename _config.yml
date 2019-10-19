@@ -13,12 +13,12 @@ description: >
   resume as well as the data analytics work I do.
 url: ""
 twitter_username: 
-default_img: pictures/formal.jpg
+default_img: pictures/self6.jpg
 
 # Profile settings
 name: Skyler Shi
-profile_img: ../../../../pictures/formal.jpg
-project_img: ../../../../pictures/informal.jpg
+profile_img: ../../../../pictures/self6.jpg
+project_img: ../../../../pictures/self6.jpg
 profile:
 social:
   github: https://github.com/icarusoars
