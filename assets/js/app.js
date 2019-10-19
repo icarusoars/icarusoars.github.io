@@ -35,8 +35,8 @@ var Tabs = (function() {
         });
 
         //display the first image (formal pic)
-        s.img[s.img.length-2].style.display = 'block';
-
+        // s.img[s.img.length-2].style.display = 'block';
+        s.img[0].style.display = 'block';
 
         //switch to correct image when posts tab is scrolled
         if (s.post.length) {
