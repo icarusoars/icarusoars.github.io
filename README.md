@@ -15,7 +15,7 @@ This folder is not set-up like a conventional jekyll website on github.
 
 The root directory contains `jekyll_files` and the successfully built site.
 
-Usually, the contents of `jekyll_files` is put directly under the root directory. Github will see that this is a jekyll repo and run `jekyll build --safe` to generate the site and serve it. However, `jekyll build --safe` is restricted and does not support many plugins.
+Usually, the contents of `jekyll_files` is put directly under the root directory. Github will see that this is a jekyll repo and run `jekyll build --safe` to generate the site and serve it. However, `jekyll build --safe` is restricted and does not support many plugins. Kudos to this website to inspire solution: https://www.sitepoint.com/jekyll-plugins-github/
 
 __Hence, I build the site locally in `jekyll_files` into `jekyll_files\_site` and then move the contents into root. Github serves the built site as if it were a normal non-jekyll website.__
 
