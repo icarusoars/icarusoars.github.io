@@ -5,6 +5,7 @@
 
 ## Credits
 I used a beatiful jekyll theme developed by Thomas Vaeth. You can find his repo here: https://github.com/thomasvaeth/trophy-jekyll.
+
 Jekyll is a static site generator service that github supports. Read more about it here: https://jekyllrb.com/.
 
 ## Folder Structure
