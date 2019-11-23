@@ -1,13 +1,60 @@
----
-layout: default
----
-<section class="previews">
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Skyler Shi</title>
+  <meta name="author" content="Skyler Shi">
+  <meta name="description" content="This is my personal website where you can check out my digital resume as well as the data analytics work I do.
+">
+  <meta property="og:title" content="Skyler Shi">
+  <meta property="og:url" content="/">
+  <meta property="og:site_name" content="Skyler Shi">
+  <meta property="og:description" content="This is my personal website where you can check out my digital resume as well as the data analytics work I do.
+">
+  <meta property="og:image" content="pictures/self6.jpeg">
+  <meta property="og:type" content="blog">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="This is my personal website where you can check out my digital resume as well as the data analytics work I do.
+">
+  <meta name="twitter:title" content="Skyler Shi">
+  <meta name="twitter:url" content="/">
+  <meta name="twitter:site" content="Skyler Shi">
+  <meta name="twitter:creator" content="@">
+  <meta name="twitter:domain" content="">
+  <meta property="twitter:image" content="pictures/self6.jpeg">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="Skyler Shi" href="/feed.xml">
+  <link rel="canonical" href="/">
+
+  
+</head>
+
+
+  <body>
+
+    <main>
+      <section class="previews">
   <!-- LEFT HALF OF SCREEN -->
   <div class="left_side">
     
-    {% for post in paginator.posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
-    {% endfor %}
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/posts/celtics1.jpg');"></figure>
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/posts/76ers_knicks.jpg');"></figure>
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/posts/thunder_76ers.jpg');"></figure>
+    
     <!-- figures for about_me page -->
     <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/self6.jpeg');"></figure>
     <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/self7.jpeg');"></figure>
@@ -15,11 +62,11 @@ layout: default
     <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/self4.jpg');"></figure>
     <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/self2.jpg');"></figure> -->
     <!-- figures for about_me, projects tab-->
-    <figure class="absolute-bg preview__img" style="background-image: url('{{ site.profile_img }}');"></figure>
-    <figure class="absolute-bg preview__img" style="background-image: url('{{ site.project_img }}');"></figure>
+    <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/self6.jpeg');"></figure>
+    <figure class="absolute-bg preview__img" style="background-image: url('../../../../pictures/self6.jpeg');"></figure>
     
     <!-- <div class="previews__container" id="site__intro">
-        <h1>{{ site.title }}</h1>
+        <h1>Skyler Shi</h1>
         <hr width="75%">
         <p>This is my personal website where you can check out my personal
         projects and read my blog posts! Enjoy your stay here!</p>
@@ -38,11 +85,306 @@ layout: default
       </ul>
     </div>
 
-    {% include about_me.html %}
-    <!-- {% include projects.html %} -->
-    {% include posts.html %}
-    {% include categories-tab.html %}
+    <div class="tab">
+
+  <ul itemscope itemtype="http://schema.org/Blog">
+      <li class="aboutme" id="aboutme__intro"itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 class="aboutme__header" itemprop="name">Hi,</h2>
+          <p class="aboutme__excerpt" itemprop="description">
+          I'm <span id="intro_name">Skyler Shi</span>, a Senior studying
+          Computer Engineering and Statistics at University of Illinois.
+          I am trying to become a Data Scientist, as I love to derive insights
+          from data and to paint a picture with numbers.
+          </p>
+      </li>
+      <li class="aboutme" id="aboutme__intro"itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+        <p class="aboutme__excerpt" itemprop="description">
+          Getting to know me, you'll find I'm a passionate person, a loyal friend,
+          and a helpless romantic. I hold myself to be genuine to everyone, and to
+          create exciting experiences for myself. I love playing basketball and doing
+          outdoors stuff.
+        </p>
+    </li>
+      <!-- <li class="aboutme" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 class="aboutme__header" itemprop="name">Education</h2>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">University of Illinois, Urbana-Champaign</p>
+            <ul>
+              <li>Bachelor of Science, Computer Engineering</li>
+              <li>Dean's List Recipient</li>
+              <li>GPA 3.85/4.00</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Shanghai High School International Division</p>
+            <ul>
+              <li>International Baccalaureate Program 42/45</li>
+              <li>GPA 4.28/4.00</li>
+            </ul>
+          </div>
+      </li> -->
+      <!-- <li class="aboutme" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 class="aboutme__header" itemprop="name">Involvements</h2>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">ECE Student Advancement Committee</p>
+            <ul>
+              <li>Social Events Committee Member</li>
+              <li>Increase ECE department participation and interaction through
+                  monthly activities
+              </li>
+              <li>Work to plan date, location, supplies for social events, townhall, Engineering Open House etc.
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Champaign Urbana Business Engineering Consulting</p>
+            <ul>
+              <li>Identified chokepoints in online DIY workflow</li>
+              <li>Prototyped and tested robot that alleviates design pain points</li>
+              <li>Confirmed market value for company and optimal pricing for robot
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Illinois Business Consulting</p>
+            <ul>
+              <li>Worked with local client to kickstart local business</li>
+              <li>Designed website for online sales</li>
+              <li>Designed business model, created accounting tabs for client</li>
+            </ul>
+          </div>
+      </li>
+      <li class="aboutme" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 class="aboutme__header" itemprop="name">Experiences</h2>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">NBA Analytics Project</p>
+            <ul>
+              <li>Data scrape NBA website's API</li>
+              <li>Analyze how compact scheduling affects top players' output and efficiency
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">ECE 385 Laser-Paint Project</p>
+            <ul>
+              <li>FPGA programming on Altera DE-2 board</li>
+              <li>Allow users to paint onto monitor through camera recognition of laser pointer
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Boilermake Hackathon</p>
+            <ul>
+              <li>Programmed and interfaced arduino sensors for Google-calendar based alarm clock</li>
+              <li>Won "Best Rookie Team Project" Award
+              </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">ECE 110 Final Project</p>
+            <ul>
+              <li>Built and programmed robotic car navigation with 360degree rotating ultrasonic obstacle detection</li>
+              <li>Invited to honors showcase to demonstrate maze navigation</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Valentine's Flower Delivery Website</p>
+            <ul>
+              <li>Designed and built frontend that allowed students to anonymously order flowers online</li>
+              <li>Designed and built backend that allowed Associative Student Body to process flower orders and deliver them to correct student</li>
+            </ul>
+          </div>
+      </li>
+      <li class="aboutme" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          <h2 class="aboutme__header" itemprop="name">Coursework &amp Skills</h2>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Coursework</p>
+            <ul>
+              <li>ECE 110 - Introduction to Electronics</li>
+              <li>ECE 120 - Introduction to Computing</li>
+              <li>ECE 220 - Computer Systems &amp Programming</li>
+              <li>ECE 313 - Probability with Engineering Applications</li>
+              <li>ECE 385 - Digital Systems Laboratory</li>
+              <li>CS 225 - Data Structures</li>
+              <li>ECE 408 - Parallel Programming</li>
+              <li>CS 440 - Artificial Intelligence</li>
+              <li>ECE 210 - Analog Signal Processing</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="aboutme__div">
+            <p class="subtitle">Skills</p>
+            <ul>
+              <li>Speech, Debate, Professional Communication</li>
+              <li>Data analysis</li>
+              <li>C++ functional programming</li>
+              <li>Frontend web programming</li>
+              <li>Backend web programming (Node.js)</li>
+              <li>Hardware Description Language Programming</li>
+            </ul>
+          </div>
+      </li> -->
+  </ul>
+
+  <footer class="section-padding--sm footer">
+  <a class="footer__archive" href="/archive/">Archive</a>
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:wwwskylercom@hotmail.com"></a></li>
+    
+      <li><a class="fa fa-lg fa-github" href="https://github.com/icarusoars" target="_blank"></a></li>
+    
+  </ul>
+</footer>
+
+</div>
+
+    <!-- <div class="tab">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>Under construction, come back later!</p>
+
+  <footer class="section-padding--sm footer">
+  <a class="footer__archive" href="/archive/">Archive</a>
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:wwwskylercom@hotmail.com"></a></li>
+    
+      <li><a class="fa fa-lg fa-github" href="https://github.com/icarusoars" target="_blank"></a></li>
+    
+  </ul>
+</footer>
+
+</div>
+ -->
+    <div class="tab">
+      <ul itemscope itemtype="http://schema.org/Blog">
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="/2018/01/12/Celtics_Grind/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2018-01-12T00:00:00-06:00">Jan 12, 2018</span>
+              <h2 class="preview__header" itemprop="name">Celtics, the Quiet Grind</h2>
+              <p class="preview__excerpt" itemprop="description">As a Boston Celtics fan, I watched their game against the Philadelphia 76ers with much enthusiasm. It seemed like the Celtics had a little too much fun at London the...</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="/2017/12/25/Christmas_Observations/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2017-12-25T00:00:00-06:00">Dec 25, 2017</span>
+              <h2 class="preview__header" itemprop="name">Observations on Christmas Day — 76ers @ Knicks</h2>
+              <p class="preview__excerpt" itemprop="description">The first game of Christmas is the battle of the unicorns. There is no doubt that 76ers vs Knicks is a matchup designed for the two unicorns — Joel Embiid and Kristap...</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <a class="preview__link" href="/2017/12/16/Thunder_vs_76ers/" itemprop="url">
+              <span class="preview__date" itemprop="datePublished" datetime="2017-12-16T00:00:00-06:00">Dec 16, 2017</span>
+              <h2 class="preview__header" itemprop="name">Thunder @ 76ers: A tiring win for the Thunder</h2>
+              <p class="preview__excerpt" itemprop="description">After finishing my CS final today, I tuned into the Thunder @ 76ers game on ESPN. It was going to be one of those games that I just watch some...</p>
+              <span class="preview__more">Read More</span>
+            </a>
+          </li>
+        
+      </ul>
+
+      
+
+      <footer class="section-padding--sm footer">
+  <a class="footer__archive" href="/archive/">Archive</a>
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:wwwskylercom@hotmail.com"></a></li>
+    
+      <li><a class="fa fa-lg fa-github" href="https://github.com/icarusoars" target="_blank"></a></li>
+    
+  </ul>
+</footer>
+
+    </div>
+    <div class="tab">
+  <ul class="cards">
+    
+    
+
+    
+      <li class="card">
+        
+        <a class="card__link" href="/category/analysis/">
+          
+            <div class="card__img">
+              
+                <figure class="absolute-bg" style="background-image: url('../../../../pictures/posts/celtics1.jpg');"></figure>
+              
+            </div>
+          
+          <div class="card__container">
+            <h3 class="card__header">Analysis</h3>
+            <p class="card__count">3 Posts</p>
+            <span class="card__more">View All</span>
+          </div>
+        </a>
+      </li>
+    
+      <li class="card">
+        
+        <a class="card__link" href="/category/nba/">
+          
+            <div class="card__img">
+              
+                <figure class="absolute-bg" style="background-image: url('../../../../pictures/posts/celtics1.jpg');"></figure>
+              
+            </div>
+          
+          <div class="card__container">
+            <h3 class="card__header">NBA</h3>
+            <p class="card__count">3 Posts</p>
+            <span class="card__more">View All</span>
+          </div>
+        </a>
+      </li>
+    
+  </ul>
+
+  <footer class="section-padding--sm footer">
+  <a class="footer__archive" href="/archive/">Archive</a>
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:wwwskylercom@hotmail.com"></a></li>
+    
+      <li><a class="fa fa-lg fa-github" href="https://github.com/icarusoars" target="_blank"></a></li>
+    
+  </ul>
+</footer>
+
+</div>
+
 
   </div>
 
 </section>
+
+    </main>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script type="text/javascript" src="/assets/js/app.js"></script>
+
+
+  </body>
+
+</html>

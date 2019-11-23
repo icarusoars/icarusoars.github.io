@@ -1,31 +1,117 @@
----
-layout: null
-
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Skyler Shi</title>
+    <description>This is my personal website where you can check out my digital resume as well as the data analytics work I do.
+</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 23 Nov 2019 14:09:28 -0600</pubDate>
+    <lastBuildDate>Sat, 23 Nov 2019 14:09:28 -0600</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Celtics, the Quiet Grind</title>
+        <description>&lt;p&gt;As a Boston Celtics fan, I watched their game against the Philadelphia 76ers with much enthusiasm. It seemed like the Celtics had a little too much fun at London the previous night and started the game slow, gradually letting up a lead as much as 22 points in the 2nd quarter. However, with some explosive scoring in the 3rd, they took the 76ers by storm and shut up Embiid and his programmed post-game trash talk.&lt;/p&gt;
+
+&lt;p&gt;I don’t know how other Celtics fans felt when we fell down by 22 points, but I wasn’t worried the least bit. Granted, the 76ers tendency to not hold on to leads did help, but it was knowing that Boston has a quiet grind that takes teams by surprise that really helped me not worry. Sure, the Celtics were down quite a bit, but it was only because their shots were not falling. Boston was still executing like they always were, and I could sure tell from the eye-test that their grind was present despite having rested for a good 3 days.&lt;/p&gt;
+
+&lt;p&gt;So what is this Celtics quiet grind that I’m talking about? I’m talking about their great concentration and sticking to their game-plan even when things are not going their way in a game. I’m talking about not caring about all the narratives out there that they will fall to the Cavs in the Easter Conference Finals and just working on their craft. I’m talking about not being perturbed by trailing by 22 points to a borderline playoffs team and making that comeback.&lt;/p&gt;
+
+&lt;p&gt;I don’t want to deify the Celtics, but this quiet grind is a pretty rare team quality that you don’t see in many teams. However, with the Celtics if you look very closely and try to eye-test not just their game but their attitude, you can see it there when Tatum checks Brown back into the game when they’re still down and Tatum looks at Brown and Brown just nods, as if saying “I’ll take it from here, don’t worry.” You can see it when Kyrie goes to the bench looking down because he missed a lot of shots he normally makes and Brad Stevens just pats him and looks on, as if saying “Don’t worry, your teammates got you out there.” You can see it when Terry Rozier and Marcus Smart communicate on defense, and the very next possession Rozier gets a deflection and steal.&lt;/p&gt;
+
+&lt;p&gt;It really helps with the type of leadership that Kyrie Irving is practicing with the Celtics. I would say that although Kyrie Irving is “the man” on the Celtics, he is not the bona fide leader in which every thing runs through him. This doesn’t make him anything less than a good leader though. Precisely, this bona fide leader all-encompassing leader figure -Lebron James is what Irving tried to avoid by coming to the Celtics. He is the number 1 option to go to when the Celtics need to make an important shot, but he is not the person who runs the entire show for the Celtics. I think this is really healthy for the Celtics because everyone feels important on the Celtics and everyone grinds with Irving. Otherwise the Celtics would just be about Kyrie Irving’s grind and proving to the world he is a leader. This type of unassuming of all success and failure leadership also takes a lot of mental load off of Irving, leaving him more mental room to grind for the team.&lt;/p&gt;
+
+&lt;p&gt;You have other team members looking after Kyrie Irving. When Kyrie lobbed that pass to Gordon Hayward that resulted in his season-ending injury, you could easily see that Kyrie was shaken up hard. As the lob was in the air I couldn’t help but say to myself “damn, this pass looks very dangerous!” so I can’t imagine how Irving felt about that pass. However, Al Horford came and took Irving under his wing, giving him an extensive talk about to not take it upon himself for Hayward’s injury. That moment defined Irving’s dynamic with the rest of the team. He is the leader who is the greatest factor in helping Boston succeed. However, at the same time, he can lean on his teammates who will support and protect him on this new journey of being the team leader. That’s what Al Horford, Marcus Smart, Jaylen Brown did last year for Isaiah Thomas, and that’s what they are doing this year for Irving. Together, they grind.&lt;/p&gt;
+
+&lt;p&gt;I think such a quiet grind characteristic that the Celtics have right now really takes teams by surprise, because they’re never amplifying what they don’t have yet. They’re not gonna go out and say “we’re gonna get this lead back and send this team back to their non-playoff bracket”. They’re just gonna go out and get them a stop or a basket play-by-play and see where to go from there. With the exception of Marcus Smart probably, none of the Celtics are loud players, but make no mistake, they are grinding. I write this article to let fans from other teams (especially Cavs fans) aware. Let the Celtics not take you by surprise soon!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 Jan 2018 00:00:00 -0600</pubDate>
+        <link>/2018/01/12/Celtics_Grind/</link>
+        <guid isPermaLink="true">/2018/01/12/Celtics_Grind/</guid>
+        
+        
+        <category>NBA</category>
+        
+        <category>Analysis</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Observations on Christmas Day — 76ers @ Knicks</title>
+        <description>&lt;p&gt;The first game of Christmas is the battle of the unicorns. There is no doubt that 76ers vs Knicks is a matchup designed for the two unicorns — Joel Embiid and Kristap Porzingis — to go at each other. However, besides the exciting end of first quarter one-on-one between the unicorns, both teams stuck to their defensive assignments for the most part, with Kanter guarding Embiid and Saric guarding Porzingis. That took much of the fun out of watching this game, but there were still many elements of the game that were interesting. Here are some observations I made during the game:&lt;/p&gt;
+
+&lt;h3&gt;Observation 1: Joel Embiid has a smoother touch than Kristap Porzingis&lt;/h3&gt;
+
+&lt;p&gt;Kristap Porzingis has a much more wirey body frame than Joel Embiid and seems a little bit shy of Embiid’s comfortableness finishing around the rim. Multiple times in this game, Porzingis could not lay the ball in after being fouled. He will definitely improve finishing around the rim as he gets stronger and improves his post moves so he can get closer to the rim.&lt;/p&gt;
+
+&lt;h3&gt;Observation 2: Ben Simmons is a player that needs the middle more so than anyone else&lt;/h3&gt;
+
+&lt;p&gt;Ben Simmons is like a rookie Lebron. His point-forward playstyle is similar to that of Lebron in the sense that his predominant tendency is to drive into the paint and kick out to shooters or slashers after the defense has already shifted enough to be easily broken down. However, unlike Lebron who has an outside shot and knows the offense well enough to do backdoor cuts, Ben Simmons can only drive and kick. He can also finish, but unless he gets all the way to the rim, it is obvious he is reluctant to finish.&lt;/p&gt;
+
+&lt;p&gt;In this game, particularly in the 2nd quarter, the Knicks did a very good job forcing Simmons to go left instead of middle after Embiid set screens for him. Simmons drives were stopped properly and the weak side had the shooters covered properly so Simmons could only back out and hit Embiid in the post.&lt;/p&gt;
+
+&lt;p&gt;It just seems to me that although Simmons has huge gravity and attracts a lot of defenders, he won’t attract much if he doesn’t go middle. And since he is not yet comfortable finishing by himself unless he goes all the way to the rim, his orchestrating the offense just isn’t effective if he doesn’t drive middle. In short, Simmons should improve his finishing, and in the mean time, drive middle to be able to distribute the weak side more. Brett Brown should also help him out by having the weak side move around more to get openings instead of expecting Simmons to be like Lebron and perform over-the-defense passes every possession.&lt;/p&gt;
+
+&lt;h3&gt;Observation 3: Both teams don’t realize shot-creation potential of post-ups enough&lt;/h3&gt;
+
+&lt;p&gt;Both teams made it clear that hitting their unicorns in the post was a big part of their offense. For the 76ers, giving the ball to Embiid in the post is also their fallback plan if they can’t get anything going and the clock is running out. However, both teams should use the post-up to find shots for teammates more than they currently do.&lt;/p&gt;
+
+&lt;p&gt;In the current NBA, teams like to shadow double team, where perimeter defenders shadow between their assignment and the post player and commits to a hard double team if the post player tries to finish. This entails that teammates on the perimeter will often have a few feet of room away from their defenders. Post-players should kick out to these teammates who have their defenders a few feet away from them more so that they can create something. More obviously, they should kick out to the weak-side teammates who are completely left open after defenses rotate to double team. Both Philadelphia and New York need to realize that their post players create many openings on the perimeter and to have their bigs find them.&lt;/p&gt;
+
+&lt;h3&gt;Observation 4: T.J. McConnell shows the NBA isn’t just a Talent-driven league&lt;/h3&gt;
+
+&lt;p&gt;Objectively speaking, there is nothing about T.J. McConnell’s game that is special. As a point guard, he cannot get more than a half step ahead of his defender nor can he shoot the lights out on demand like the star point guards do in this league. However, with 15 points, 4 assists and a very important steal in the 4th, McConnell shows why he is a key rotational player in the league. With his height and wingspan, he never has much room to operate, but he always holds the reaching arms of the defenders off just enough to get a pass to a cutting teammate off. He always makes the right passes to the open teammates. And when he is open, he sure does knock his shots down. I just find it inspiring that there is so little room for error for a player like him, yet he performs so well. Granted, the league’s superstars will be the ones with the most talent, but McConnell very much shows that there is a place for players with less talent like him in the league by doing all the right things at the right time.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Dec 2017 00:00:00 -0600</pubDate>
+        <link>/2017/12/25/Christmas_Observations/</link>
+        <guid isPermaLink="true">/2017/12/25/Christmas_Observations/</guid>
+        
+        
+        <category>NBA</category>
+        
+        <category>Analysis</category>
+        
+      </item>
+    
+      <item>
+        <title>Thunder @ 76ers: A tiring win for the Thunder</title>
+        <description>&lt;p&gt;After finishing my CS final today, I tuned into the Thunder @ 76ers game on ESPN. It was going to be one of those games that I just watch some tidbits during dinner, but I left the TV on anyways. AND GOOD THING I DID. This game was one of the best games I watched this season — with the 76ers re-upping their lifeline 3 times to make 3 overtimes, this was a game my friends and I regret we didn’t make a game-night out of.&lt;/p&gt;
+
+&lt;p&gt;To the fans who didn’t tune into this game, the Thunder pulled out an almost comedic victory (Andre Roberson made the exact same under-the-rim shot he didn’t get a foul call on at the end of 2nd overtime) of 119–117. However, beyond the adrenaline rush for the clutch shots made over and over again by both teams, this game really confirms the ESPN talk-show narratives that are out there for me: “The Thunder still haven’t figured out their Big-3 and doesn’t look like they will before the trade deadline” and “the 76ers patiently stockpiling talent over the years is paying its dividends this season”. Even though the Thunder won, it wasn’t a pretty win. And even though the 76ers lost, it was a damn pretty loss.&lt;/p&gt;
+
+&lt;p&gt;Really, to me, it’s just pathetic how the Thunder are playing offense right now. On a night that Carmelo Anthony is shooting 64.7% from the field, the Thunder still played bad enough overall to have to contend 3 overtimes with the 76ers, who were absolutely gassed by the end of the 4th quarter. Yes, the rest of the Big-3, Westbrook (10 of 33) and Paul George (8 of 23), both had a rather bricky night, but the Thunder did so many other things right that they clearly were able to put the game away much earlier.&lt;/p&gt;
+
+&lt;p&gt;First of all, the Thunder contained Ben Simmons, the 76ers offense facilitator, very well this game. Paul George and Andre Roberson were able to use their length and defensive knowledge to pester Ben Simmons enough. I was amazed that OKC’s defense could get Ben Simmons to turn his back towards the rim to protect the ball and completely lose his attack mode. Ben Simmons still played a great game, but his contribution really died off near the end of regulation. He resorted to feeding Embiid in the post and just letting Embiid go at OKC. With Simmons playing more passively, this put a larger burden on Embiid and took away some of his game. Watching previous games, Embiid is a great pop-out shooter and even second driver. Simmons would often just use a screen to get to the middle, sucking in defenders and kicking it out to Embiid for a shot or second drive. However, with Simmons so afraid of getting the ball stolen by OKC, Embiid was really reduced to his post-game as he cannot create a pull-up shot nor initiate a drive with a defender right in front of him. OKC had less moving offensive pieces to defend and double-teamed Embiid with less risk.&lt;/p&gt;
+
+&lt;p&gt;Then, OKC pulled down 18 offensive rebounds, giving them 13 more possessions than the 76ers. Westbrook would just rush into the lane and snatch rebounds away from Robert Covington or JJ Redick who think they have already secured the defensive rebound in their hands. Also, Steven Adams had a great command of space and tapped out multiple loose balls for the team to stir up another attack.&lt;/p&gt;
+
+&lt;p&gt;So what was the problem for OKC? With great defense and many more second chance opportunities, why were they struggling so hard to put the game away?&lt;/p&gt;
+
+&lt;p&gt;Simply put, tonight they didn’t put the ball in Carmelo’s hands when they should have been. One of the advantages of having a Big-3 is that very rarely will all 3 superstars all have an off-night. I believe this was a paraphrase of a Steve Kerr quote from last year. He said that if Stephen Curry has an off-night, KD will carry the offense; if KD has an off-night, Klay will shoot the lights out; and if Klay has an off-night, you can expect to be Curry out there sinking 3’s. The Thunder, did not employ this very simple concept at all today! Since Westbrook and PG were both having off-nights, the logical thing to do is to put the ball in Melo’s hands more. But the Thunder had Westbrook take 33 shots whereas Melo only took 17… There was a 3 minute stretch in the 4th quarter where I felt like Melo did not the touch the ball at all on offense and it was just Westbrook driving to the rim and missing 2 dunks.&lt;/p&gt;
+
+&lt;p&gt;This blatant disregard for the hot hand did not continue after time-outs which leads me to believe OKC has a serious communication issue on offense. This is just me speculating, but is Billy Donovan afraid of telling Westbrook to give up the ball because he is the reigning MVP and OKC’s franchise player? Surely an NBA coach like him would not fail to realize Melo should get the ball more? And then, are Melo and PG uncomfortable telling Westbrook to give them more opportunities on offense because the other NBA stars who moved to new teams adapt to the star who has been there longer and not vice versa (KD adapting to Curry, CP3 adapting to Harden etc.)? Melo in New York would have surely called for ball with such a good shooting night, so what is stopping him from doing so in OKC? I don’t know what it is, but someone from OKC needs to help Westbrook realize that he should not try to do too much when he has so much superstar help around him.&lt;/p&gt;
+
+&lt;p&gt;More generally, OKC doesn’t have an offense that connects Westbrook’s capabilities with that of PG and Melo. It is just an absolute shocker to me how OKC’s offense has Melo and PG in their respective baseline corners, waiting for Westbrook to run a pick-n-roll with Steven Adams and go downhill, only to either attempt a lay-up, alley-hoop or kickout to Alex Abrines and Andre Roberson! Yes, you heard me correct. From watching this game, I think Westbrook kicks out more to Alex Abrines and Andre Roberson than PG and Melo. I listened to a podcast criticizing how Billy Donovan is using PG and Melo as spot-up shooters. At this point, if PG and Melo do not get their share of the ball on Westbrook’s drives, they are even less than spot-up shooters… They are teammates appreciating Westbrook’s drives from the baseline.&lt;/p&gt;
+
+&lt;p&gt;Maybe Billy Donovan put Melo and PG both on baseline corners because that is the spot most slashers kick out to on a drive to the hoop. So Billy Donovan needs to get Westbrook to realize that Melo and PG are in those corners for a reason. Or he needs to get Roberson and Abrines to set down screens for Melo and PG and have them at the top of the key where Westbrook seems to kick the ball out more.&lt;/p&gt;
+
+&lt;p&gt;It seems like these are very simple solutions to OKC’s offense that I am talking about. The truth is, THEY ARE! Which leaves me head-scratching why OKC does not have these simple axioms in place: 1) If you’re going to hero iso-ball, at least give it to the hot-hand. 2) Make sure Westbrook kicks the ball out to Melo or PG on his drives so they can actually do something off the dribble and not just stand around.&lt;/p&gt;
+
+&lt;p&gt;It’s pretty late so I’m going to end my first Medium article here. I was going to write about Philadelphia’s side of this game but I guess an OKC rant is enough for today. At this point, I would say the better narrative for OKC is “NBA fans have figured out that Melo and PG are not being fully utilized in the offense. Have Westbrook pass to them more! Period!”&lt;/p&gt;
+
+&lt;p&gt;If one truly thinks about it, OKC’s offensive flaws are as simple as that. It’s more a matter of communication and implementing them than anything else. Maybe it’s hard to implement a ball-share system when OKC has been doing a Westbrook-centric offense for so long. Anyhow, good luck OKC, because I really want to see the full potential of your offence :D&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Dec 2017 00:00:00 -0600</pubDate>
+        <link>/2017/12/16/Thunder_vs_76ers/</link>
+        <guid isPermaLink="true">/2017/12/16/Thunder_vs_76ers/</guid>
+        
+        
+        <category>NBA</category>
+        
+        <category>Analysis</category>
+        
+      </item>
+    
   </channel>
 </rss>
