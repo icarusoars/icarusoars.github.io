@@ -24,7 +24,7 @@ social:
   github: https://github.com/icarusoars
 
 # Build settings
-exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "Rakefile"]
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
@@ -33,4 +33,4 @@ sass:
   style: compressed
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+plugins: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
