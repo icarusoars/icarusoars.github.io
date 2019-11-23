@@ -21,4 +21,8 @@ __Hence, I build the site locally in `jekyll_files` into `jekyll_files\_site` an
 
 ## Script
 To make the process I described above simpler, I wrote a z-shell script.
-Run `source ./build_push_prod.sh "COMMIT MESSAGE HERE"` to build jekyll site locally and push to github.
+Run 
+
+__`source ./build_push_prod.sh "COMMIT MESSAGE HERE"`__
+
+to build jekyll site locally and push to github.
