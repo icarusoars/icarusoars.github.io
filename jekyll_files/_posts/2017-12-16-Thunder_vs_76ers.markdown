@@ -3,8 +3,7 @@ layout: post
 title: "Thunder @ 76ers: A tiring win for the Thunder"
 date: 2017-12-16
 categories:
-   - NBA
-   - Analysis
+   - Bball_Analysis
 description:
 image: ../../../../pictures/posts/thunder_76ers.jpg
 image-sm: ../../../../pictures/posts/thunder_76ers.jpg

@@ -3,8 +3,7 @@ layout: post
 title: "Celtics, the Quiet Grind"
 date: 2018-01-12
 categories:
-   - NBA
-   - Analysis
+   - Bball_Analysis
 description:
 image: ../../../../pictures/posts/celtics1.jpg
 image-sm: ../../../../pictures/posts/celtics1.jpg

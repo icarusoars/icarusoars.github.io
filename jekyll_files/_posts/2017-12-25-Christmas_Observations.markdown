@@ -3,8 +3,7 @@ layout: post
 title: "Observations on Christmas Day — 76ers @ Knicks"
 date: 2017-12-25
 categories:
-   - NBA
-   - Analysis
+   - Bball_Analysis
 description:
 image: ../../../../pictures/posts/76ers_knicks.jpg
 image-sm: ../../../../pictures/posts/76ers_knicks.jpg
