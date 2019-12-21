@@ -54,17 +54,17 @@ So without further ado, here are some digestable bullet points of what I learned
 
 
 ## The Giving Culture @ NBA
-Nobody gets to where they are just by themselves. Reach out to people who can help you, motivate you, teach you. Once you get to a better position, help, motivate, teach those who reach out to you. I love the culture of coffee chats at the NBA. People who have been on their journey longer than us interns were so willing to give time and insight to their journey and teach us what they know. It is also a reminder to myself to give help and insight to those that can benefit from it.
+What we were told repeatedly was that nobody gets to where they are just by themselves. Reach out to people who can help you, motivate you, teach you. Once you get to a better position, help, motivate, teach those who reach out to you. I love the culture of coffee chats at the NBA. People who have been on their journey longer than us interns were so willing to give time and insight to their journey and teach us what they know. My great time having coffee chats with all kinds of amazing NBA people was also a reminder to myself **to give help and insight to those that can benefit from it**.
 
 ## Sal Wisdom
 We had a fireside chat with a Senior Leader of the NBA, Salvatore Larocca, President of Global Partnerships. It was my absolute favorite talk because as Sal sat at the front of the long desk with us interns crowded around him, he was able to tell us his life story in such a heartfelt and genuine manner. There really was no barrier between me and his story besides maybe all the intern heads popping out at the long desk.
 
-From what I could tell, Sal always knew he wanted to be successful, and did whatever he could to ensure he was on the path of success. After all his stories, you can really tell he is successful and happy by holding to simple philosophies our current day-and-age may like to dismiss as reductionist. A simple "work hard and you'll be successful" really meant a lot coming from him. My favorite quote from him is: "There's going to be noise in your life because you are still young. The noise is 90% of life. Go and find the other 10%." 
+From what I could tell, Sal always knew he wanted to be successful, and did whatever he could to ensure he was on the path of success. After all his stories, you can really tell he is successful and happy by holding to simple philosophies our current day-and-age may like to dismiss as reductionist. **A simple "work hard and you'll be successful" really meant a lot coming from him. My favorite quote from him is: "There's going to be noise in your life because you are still young. The noise is 90% of life. Go and find the other 10%."**
 
 ## Byron Wisdom
-Another fireside chat we had was with Senior Leader Byron Spruell, President of League Operations. With the limited minutes we got with him, I kept on telling myself Byron is the type of leader I want to be. I respect all the Senior Leaders all the same, but I could just tell Byron's leadership style resounded with me the most. He had the commanding presence I think any good leader needs. But at the same time, he had the genuineness to make you feel right at home talking to him. It's hard to describe. You'd have to meet him to know exactly what I mean. But in the meantime, here's a great piece of advice from him: "Always have a personal board of directors around you."
+Another fireside chat we had was with Senior Leader Byron Spruell, President of League Operations. **With the limited minutes we got with him, I kept on telling myself Byron is the type of leader I want to be.** I respect all the Senior Leaders all the same, but I could just tell Byron's leadership style resounded with me the most. He had the commanding presence I think any good leader needs. But at the same time, he had the genuineness to make you feel right at home talking to him. It's hard to describe. You'd have to meet him to know exactly what I mean. **But in the meantime, here's a great piece of advice from him: "Always have a personal board of directors around you."**
 
-Byron's been intentional with his career decisions. It's important to recognize that your career is your own doing, and you should make sure you're not drifting around in your career. The way Byron has done that is by running himself like how you run a company - with a board of directors. These are close friends, peers or even superiors you trust, who can give you their takes. You tell them your goals when you set them, and you report back to them the results when you achieve the goals. These board directors make sure you don't make a biased decision by providing their opinions.
+Byron's been intentional with his career decisions. It's important to recognize that your career is your own doing, and you should make sure you're not drifting around in your career. The way Byron has done that is by running himself like how you run a company - with a board of directors. **These are close friends, peers or even superiors you trust, who can give you their takes. You tell them your goals when you set them, and you report back to them the results when you achieve the goals. These board directors make sure you don't make a biased decision by providing their opinions.**
 
 
 <figure class="image">
@@ -73,9 +73,9 @@ Byron's been intentional with his career decisions. It's important to recognize 
 </figure>
 
 ## Good to Great
-I was a Data Analyst intern on the Digital Content Strategy team. With my manager being in charge of WNBA, G League, and Basketball Africa League social media data, I understood the disparities in size of these leagues with the NBA. Furthermore, with my intern project being about expanding G League opportunities, I was truly put in a position to think about how to take a business from good to great.
+I was a Data Analyst intern on the Digital Content Strategy team. With my manager being in charge of WNBA, G League, and Basketball Africa League social media data, I understood the disparities in size of these leagues with the NBA. Furthermore, with my intern project being about expanding G League opportunities, **I was truly put in a position to think about how to take a business from good to great.**
 
-Sure the NBA is a multi-billion league everyone tunes into now, but how do we take the WNBA, G League and BAL to that level? This was the most interesting overarching question to think about. Because even if these leagues' market-sizes are capped lower than the NBA's, the question of how do we make them leap into a different stratosphere of market-size is the million-dollar question. For our intern project, one member of our team, Alex was ripping out his hair to think of a good recommendation for the G League. That was very inspirational to see.
+Sure the NBA is a multi-billion league everyone tunes into now, but how do we take the WNBA, G League and BAL to that level? This was the most interesting overarching question to think about. Because even if these leagues' market-sizes are capped lower than the NBA's, the question of how do we make them leap into a different stratosphere of market-size is the million-dollar question. For our intern project, one member of our team, **Alex was ripping his hair out to think of a good recommendation for the G League.** That was very inspirational to see.
 
 
 <figure class="image">
@@ -88,11 +88,11 @@ This bullet point is from the point of view of an engineer and for all the engin
 
 At least at the University of Illinois, I truly feel engineers have been somewhat limited. What I mean by this is that we are great engineers, but we can be more than just engineers!
 
-Through interning at the NBA, I've come to recognize the NBA rewards 2 types of people. The NBA rewards the hard-workers, the people who put their heads down and deliver amazing substance. The NBA also rewards charismatic leaders, the ones who can inspire play and call others to action.
+Through interning at the NBA, I've come to recognize the NBA rewards 2 types of people. **The NBA rewards the hard-workers, the people who put their heads down and deliver amazing substance. The NBA also rewards charismatic leaders, the ones who can inspire play and call others to action.**
 
 Engineering people are definitely hard-workers, because it truly takes a lot of time to become a good engineer. And then it takes a lot of time to engineer a good product! However, at my time at the NBA, I was enabled to be more than an engineer. I was trusted to communicate results to peers and superiors, and present important ideas to others. My time there reminded me of my time as a debater in high school. I would use words to persuade and to inspire thought. The NBA was a reminder that I can use that ability of mine, along with engineering, to be so much more.
 
-So I guess the very complicated point I am trying to make here is this: Be both! Both a good engineer and an inspiring character/leader. The further takeaway for myself is: Time is limited, so be productive in working hard so I can have time to be with others to inspire and be inspired.
+So I guess the very complicated point I am trying to make here is this: **Be both! Both a good engineer and an inspiring character/leader.** The further takeaway for myself is: Time is limited, so be productive in working hard so I can have time to be with others to inspire and be inspired.
 
 ## Intern Culture
 
@@ -119,4 +119,14 @@ OK, lastly I'll just list some of the top memories I had as an intern there. Mos
 <figure class="image">
   <img src="../../../../pictures/posts/NBA_intern/nba4.jpg">
   <strong><figcaption>Baseball Suite & the Bois</figcaption></strong>
+</figure>
+
+<figure class="image">
+  <img src="../../../../pictures/posts/NBA_intern/nba9.jpg">
+  <strong><figcaption>Last Day Photobooth Pics</figcaption></strong>
+</figure>
+
+<figure class="image">
+  <img src="../../../../pictures/posts/NBA_intern/nba10.jpg">
+  <strong><figcaption>All the Interns</figcaption></strong>
 </figure>
