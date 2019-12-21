@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skyler Shi</title>
-    <description>This is my personal website where you can check out my digital resume as well as the data analytics work I do.
+    <description>This is my personal website where you can check out the data analytics work I do.
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Dec 2019 14:29:44 -0600</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2019 14:29:44 -0600</lastBuildDate>
+    <pubDate>Fri, 20 Dec 2019 22:11:01 -0600</pubDate>
+    <lastBuildDate>Fri, 20 Dec 2019 22:11:01 -0600</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>

@@ -33,23 +33,28 @@ body {
   line-height: 1.6;
 
   @media (min-width: $mq-xs) {
-    font-size: 102.5%;
+    // font-size: 102.5%;
+    font-size: 122.5%;
   }
 
   @media (min-width: $mq-sm) {
-    font-size: 105%;
+    // font-size: 105%;
+    font-size: 125%;
   }
 
   @media (min-width: $mq-md) {
-    font-size: 107.5%;
+    // font-size: 107.5%;
+    font-size: 127.5%;
   }
 
   @media (min-width: $mq-lg) {
-    font-size: 110%;
+    // font-size: 110%;
+    font-size: 120%;
   }
 
   @media (min-width: $mq-xl) {
-    font-size: 115%;
+    // font-size: 115%;
+    font-size: 120%;
   }
 
   @media (min-width: $mq-xxl) {
