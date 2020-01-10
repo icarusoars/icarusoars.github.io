@@ -6,9 +6,91 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Dec 2019 22:33:59 -0600</pubDate>
-    <lastBuildDate>Fri, 20 Dec 2019 22:33:59 -0600</lastBuildDate>
+    <pubDate>Fri, 10 Jan 2020 15:50:33 -0600</pubDate>
+    <lastBuildDate>Fri, 10 Jan 2020 15:50:33 -0600</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Bread, Butter, &amp; Python Data Structures</title>
+        <description>&lt;p&gt;When I was Leetcoding a few days earlier, I realized I have spent so much time with Pandas &lt;code class=&quot;highlighter-rouge&quot;&gt;dataframes&lt;/code&gt; and Numpy &lt;code class=&quot;highlighter-rouge&quot;&gt;arrays&lt;/code&gt; that I was relatively unfamiliar with Python’s built-in data structures. So here’s an “everything” article on Python data structures. The hope is that after reading and digesting this article, we can Leetcode faster without searching up &lt;code class=&quot;highlighter-rouge&quot;&gt;List&lt;/code&gt;’s API every 10 seconds.&lt;/p&gt;
+
+&lt;p&gt;This article will not be another documentation of Python Data Structures. I will not talk about every single API of the Data structures. Only the APIs that are important will be mentioned. Examples of using these Data Structures to solve a toy-problem will be given.&lt;/p&gt;
+
+&lt;p&gt;For each data structure, I will talk about these 5 categories for the data structure.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Initializing Data&lt;/li&gt;
+  &lt;li&gt;Accessing Data&lt;/li&gt;
+  &lt;li&gt;Manipulating Data&lt;/li&gt;
+  &lt;li&gt;Converting to other Data Structures&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before we begin, here is a semantic tree of how Data Structures are organized in Python. The semantic tree shows only the Data Structures we care about.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;the-no-import-data-structures&quot;&gt;The No-Import Data Structures&lt;/h2&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;h3 id=&quot;list&quot;&gt;List&lt;/h3&gt;
+        &lt;p&gt;This is what is more commonly known as &lt;strong&gt;Array&lt;/strong&gt; in python. It stores a sequence of items that can be accessed through its indices.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;collapsible&quot;&gt;
+    Initializing List Data
+    &lt;/button&gt;
+    &lt;div class=&quot;collapsible_content&quot;&gt;
+    &lt;script src=&quot;https://gist.github.com/icarusoars/918c67cd755c434ed79452184d83780d.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+    &lt;div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;collapsible&quot;&gt;
+    Accessing List Data
+    &lt;/button&gt;
+    &lt;div class=&quot;collapsible_content&quot;&gt;
+    &lt;script src=&quot;https://gist.github.com/icarusoars/894cbb6d3b0ee3deb8492e675efb90c2.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+    &lt;div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;collapsible&quot;&gt;
+    Manipulating List Data
+    &lt;/button&gt;
+    &lt;div class=&quot;collapsible_content&quot;&gt;
+    &lt;script src=&quot;https://gist.github.com/icarusoars/cfd6c14d5f4f3228a8daf02ac5bc4a17.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+    &lt;div&gt;
+    &lt;button type=&quot;button&quot; class=&quot;collapsible&quot;&gt;
+    Converting List to other Data Structures
+    &lt;/button&gt;
+    &lt;div class=&quot;collapsible_content&quot;&gt;
+    &lt;script src=&quot;https://gist.github.com/icarusoars/cfd6c14d5f4f3228a8daf02ac5bc4a17.js&quot;&gt;&lt;/script&gt;
+    &lt;/div&gt;
+ &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;h3 id=&quot;tuple&quot;&gt;Tuple&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h3 id=&quot;dictionary&quot;&gt;Dictionary&lt;/h3&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;h3 id=&quot;set&quot;&gt;Set&lt;/h3&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 25 Dec 2019 00:00:00 -0600</pubDate>
+        <link>/2019/12/25/Python_Data_Structures/</link>
+        <guid isPermaLink="true">/2019/12/25/Python_Data_Structures/</guid>
+        
+        
+        <category>Programming</category>
+        
+      </item>
     
       <item>
         <title>Did you know you can Intern at the NBA?</title>

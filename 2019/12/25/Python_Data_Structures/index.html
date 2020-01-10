@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bread, Butter, &amp; Python Data Structures | Skyler Shi</title>
+  <meta name="author" content="Skyler Shi">
+  <meta name="description" content="This is my personal website where you can check out the data analytics work I do.
+">
+  <meta property="og:title" content="Bread, Butter, &amp; Python Data Structures | Skyler Shi">
+  <meta property="og:url" content="/2019/12/25/Python_Data_Structures/">
+  <meta property="og:site_name" content="Skyler Shi">
+  <meta property="og:description" content="This is my personal website where you can check out the data analytics work I do.
+">
+  <meta property="og:image" content="../../../../pictures/posts/python_data/1.jpg">
+  <meta property="og:type" content="blog">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="This is my personal website where you can check out the data analytics work I do.
+">
+  <meta name="twitter:title" content="Bread, Butter, &amp; Python Data Structures | Skyler Shi">
+  <meta name="twitter:url" content="/2019/12/25/Python_Data_Structures/">
+  <meta name="twitter:site" content="Skyler Shi">
+  <meta name="twitter:creator" content="@">
+  <meta name="twitter:domain" content="">
+  <meta property="twitter:image" content="../../../../pictures/posts/python_data/1.jpg">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="Skyler Shi" href="/feed.xml">
+  <link rel="canonical" href="/2019/12/25/Python_Data_Structures/">
+
+  
+</head>
+
+
+  <body>
+
+    <main>
+      <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="section-padding--lg mast rellax" data-rellax-speed="-4">
+    <a class="nav nav--white" href="/">
+      <i class="fa fa-lg fa-arrow-left"></i>
+      <span>Back to Posts</span>
+    </a>
+    <figure class="absolute-bg mast__img" style="background-image: url('../../../../pictures/posts/python_data/1.jpg');"></figure>
+    <div class="mast__container">
+      <span><time datetime="2019-12-25T00:00:00-06:00" itemprop="datePublished">Dec 25, 2019</time></span>
+      <h1 itemprop="name headline">Bread, Butter, & Python Data Structures</h1>
+      
+        <span>Posted in 
+          
+            <a class="nav--white" href="/category/programming">Programming</a>
+          
+        </span>
+      
+      <span></span>
+    </div>
+  </header>
+
+  <section class="section-padding bg-grey" itemprop="articleBody">
+    <div class="post">
+      <p>When I was Leetcoding a few days earlier, I realized I have spent so much time with Pandas <code class="highlighter-rouge">dataframes</code> and Numpy <code class="highlighter-rouge">arrays</code> that I was relatively unfamiliar with Python’s built-in data structures. So here’s an “everything” article on Python data structures. The hope is that after reading and digesting this article, we can Leetcode faster without searching up <code class="highlighter-rouge">List</code>’s API every 10 seconds.</p>
+
+<p>This article will not be another documentation of Python Data Structures. I will not talk about every single API of the Data structures. Only the APIs that are important will be mentioned. Examples of using these Data Structures to solve a toy-problem will be given.</p>
+
+<p>For each data structure, I will talk about these 5 categories for the data structure.</p>
+
+<ul>
+  <li>Initializing Data</li>
+  <li>Accessing Data</li>
+  <li>Manipulating Data</li>
+  <li>Converting to other Data Structures</li>
+</ul>
+
+<p>Before we begin, here is a semantic tree of how Data Structures are organized in Python. The semantic tree shows only the Data Structures we care about.</p>
+
+<ul>
+  <li>
+    <h2 id="the-no-import-data-structures">The No-Import Data Structures</h2>
+    <ul>
+      <li>
+        <h3 id="list">List</h3>
+        <p>This is what is more commonly known as <strong>Array</strong> in python. It stores a sequence of items that can be accessed through its indices.</p>
+      </li>
+    </ul>
+    <div>
+    <button type="button" class="collapsible">
+    Initializing List Data
+    </button>
+    <div class="collapsible_content">
+    <script src="https://gist.github.com/icarusoars/918c67cd755c434ed79452184d83780d.js"></script>
+    </div>
+ </div>
+    <div>
+    <button type="button" class="collapsible">
+    Accessing List Data
+    </button>
+    <div class="collapsible_content">
+    <script src="https://gist.github.com/icarusoars/894cbb6d3b0ee3deb8492e675efb90c2.js"></script>
+    </div>
+ </div>
+    <div>
+    <button type="button" class="collapsible">
+    Manipulating List Data
+    </button>
+    <div class="collapsible_content">
+    <script src="https://gist.github.com/icarusoars/cfd6c14d5f4f3228a8daf02ac5bc4a17.js"></script>
+    </div>
+ </div>
+    <div>
+    <button type="button" class="collapsible">
+    Converting List to other Data Structures
+    </button>
+    <div class="collapsible_content">
+    <script src="https://gist.github.com/icarusoars/cfd6c14d5f4f3228a8daf02ac5bc4a17.js"></script>
+    </div>
+ </div>
+    <ul>
+      <li>
+        <h3 id="tuple">Tuple</h3>
+      </li>
+      <li>
+        <h3 id="dictionary">Dictionary</h3>
+      </li>
+      <li>
+        <h3 id="set">Set</h3>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+    </div>
+  </section>
+
+<!--
+  <section class="profile">
+    <div class="profile__card">
+      <div class="profile__img">
+        <figure class="absolute-bg" style="background-image: url('../../../../pictures/self6.jpeg');"></figure>
+      </div>
+      <div class="profile__container">
+        <p></p>
+        
+          <ul class="profile__social">
+            
+              <li><a class="fa fa-lg fa-envelope-o" href="mailto:wwwskylercom@hotmail.com"></a></li>
+            
+            
+              <li><a class="fa fa-lg fa-github" href="https://github.com/icarusoars" target="_blank"></a></li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </section>
+-->
+
+</article>
+
+
+  <section class="next">
+    <a class="next__link" href="/2019/08/20/NBA_Internship/" style="background-image: url('../../../../pictures/posts/NBA_intern/nba1.jpg');">
+      <div class="next__container">
+        <span>Read Next</span>
+        <h2>Did you know you can Intern at the NBA?</h2>
+      </div>
+    </a>
+  </section>
+
+
+    </main>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script type="text/javascript" src="/assets/js/app.js"></script>
+
+
+  </body>
+
+</html>

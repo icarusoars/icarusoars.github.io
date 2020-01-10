@@ -147,3 +147,21 @@ document.addEventListener('DOMContentLoaded', function() {
   Preview.init();
   wow.init();
 });
+
+
+// handling collapsible boxes 
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("coll_active");
+    var content = this.nextElementSibling;
+    content.classList.toggle("coll_content_active");
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      console.log("REACHED");
+    }
+  });
+}
