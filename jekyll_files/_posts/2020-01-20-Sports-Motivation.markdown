@@ -37,7 +37,7 @@ In 2017 - 2018, this man led the Celtics to the playoffs and played his heart ou
 
 A video showing how much Isaiah means to his teammates, his coach and all us Celtics fans.
 <div class='video-container'>
-<iframe src="https://www.youtube.com/embed/cjIX3dFnjfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cjIX3dFnjfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 
