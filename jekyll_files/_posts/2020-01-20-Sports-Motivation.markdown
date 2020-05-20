@@ -36,6 +36,7 @@ This story is simple but amazing. Isaiah Thomas was a 60th draft pick bounced ar
 In 2017 - 2018, this man led the Celtics to the playoffs and played his heart out. His sister tragically passed away in a car accident, but Isaiah kept playing and kept playing. When it was all said and done, Isaiah had a severe hip injury, but propelled the Celtics to heights they never reached before - Eastern Conference Finals. IT was then traded away to another team. The results were not pretty for this man, but Celtics fans adore him for his commitment and love for the city. During a hard time in my life, Isaiah showed me the courage to love what you have with your whole heart.
 
 A video showing how much Isaiah means to his teammates, his coach and all us Celtics fans.
+
 <div class='video-container'>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cjIX3dFnjfY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
